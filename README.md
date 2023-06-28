@@ -51,7 +51,7 @@ If you would like to download the data from Google drive to your remote machine 
 # Train
 
 ## Data-limited closed-set scenario
-In the anno_files subfolder, there are annotation files for runing data limited experiments. *"anet_anno_action_50p1.json"* means the first subset with about 50% of the original training data. *"anet_anno_action_20p5.json"* means the fifth subset with about 20% of the original training data. There are five files for each data amount since we repeat experiments five times. Subsets are sampled uniformly using different random seeds.
+In the anno_files subfolder, please unzip *Archive.zip*, there are annotation files for runing data limited experiments. *"anet_anno_action_50p1.json"* means the first subset with about 50% of the original training data. *"anet_anno_action_20p5.json"* means the fifth subset with about 20% of the original training data. There are five files for each data amount since we repeat experiments five times. Subsets are sampled uniformly using different random seeds.
 
 Please navigate to STALE_closed, and place the annotation file you would like to use in **data/activitynet_annotations**.
 
